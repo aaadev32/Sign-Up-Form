@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,50 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <div id="sidebar">
         <img src="Pictures/fantasy-g7223683a3_1920.jpg" alt="">
     </div>
     <div id="main">
-        <div id="header">header</div>
-        <div id="form">form</div>
+        <div id="header">
+            <strong>Welcome to my sign up form portfolio page!</strong>
+            <br>
+            here i will display my accumulated knowledge of html and CSS to create sign up forms.
+            <br>
+        </div>
+        Please Fill This Form
+        <div id="form">
+            <form action="" method="post">
+
+
+                <label for="first-name"> First Name</label>
+                <input type="text" id="first-name" name="first-name" minlength="4" maxlength="20" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" minlength="4" maxlength="20" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone-number">Phone Number</label>
+                <input type="text" id="phone-number" name="phone-number" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                
+                <button id="submit">Submit</button>
+            </form>
+        </div>
         <div id="footer">footer</div>
     </div>
-    
+
 </body>
+
 </html>
+
+4/21/22 -- make form fit in a 3 x 2 grid
