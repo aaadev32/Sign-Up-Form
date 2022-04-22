@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'star_jediregular';
-    src: url('starjedi-webfont.woff2') format('woff2'),
-        url('starjedi-webfont.woff') format('woff');
+    src: url('Fonts/webfontkit-20220420-130937/starjedi-webfont.woff2') format('woff2'),
+        url('Fonts/webfontkit-20220420-130937/starjedi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -112,5 +112,7 @@ input {
 #wolf-logo-container > p {
     color: whitesmoke;
     font-family: 'star_jediregular';
+    font-size: 1.5rem;
+
 }
 
