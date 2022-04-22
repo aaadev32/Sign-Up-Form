@@ -1,22 +1,21 @@
-html{
-    height: 100%;
-}
-body{
+html {
     display: flex;
     height: 100%;
+}
+
+body {
+    overflow: scroll;
+    display: flex;
     margin: 0;
     font-family: 'Orelega One', cursive;
 }
 
-#header{
+#header {
     text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
 }
 
-#footer{
-    display: flex;
-    justify-content: center;
-    
-}
 
 #main {
     --bg-color: rgb(114, 118, 232);
@@ -26,17 +25,17 @@ body{
     background-color: var(--bg-color);
 }
 
-#sidebar{
+#sidebar {
     width: 40%;
     height: 100%;
+
 }
 
-#sidebar > img{
-    width: 100%;
+#sidebar>img {
     height: 100%;
 }
 
-div > legend{
+div>legend {
     text-align: left;
     margin: 10px 14px;
 }
@@ -44,40 +43,63 @@ div > legend{
 
 form {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-top: 2px groove grey;
+    border-bottom: 2px groove grey;
 }
 
-#submit-container{
+#submit-container {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: space-around;
+    margin: 4px 14px;
 }
 
-#submit-container > p{
+#submit-container>p {
     margin: 5px 0;
 }
 
-div > button{
+div>button {
     margin: 3px 0px;
     width: 125px;
     height: 30px;
     border: 0px;
+    border-radius: 5%;
     font-weight: bold;
     color: white;
-    background-color:grey;
+    background-color: grey;
 }
 
-button:hover{
+button:hover {
     background-color: black;
 }
 
-fieldset{
+fieldset {
     display: flex;
     flex-direction: column;
     border: none;
 }
 
-input{
+input {
     width: 200px;
+}
+
+#wolf-logo {
+    width: 55%;
+    height: 95%;
+}
+
+#wolf-logo-container {
+    margin-top: 30px;
+    background-color: black;
+    opacity: .7;
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 25%;
+}
+
+#wolf-logo-container > p {
+    color: whitesmoke;
 }
